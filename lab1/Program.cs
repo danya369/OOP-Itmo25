@@ -28,7 +28,7 @@ class Program
                     break;
 
                 case "2":
-                    Console.Write("Введите номинал монеты (1, 2, 5, 10): ");
+                    Console.Write("Введите номинал монеты (1, 2, 5, 10, 50, 100): ");
                     string? coinInput = Console.ReadLine();
                     if (coinInput != null && int.TryParse(coinInput, out int coin))
                     {

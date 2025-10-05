@@ -11,7 +11,7 @@ namespace VendingMachineApp
         private int _balance;
         private int _collectedMoney;
 
-        private readonly int[] _validCoins = { 1, 2, 5, 10 };
+        private readonly int[] _validCoins = { 1, 2, 5, 10, 50, 100 };
 
         public VendingMachine()
         {
