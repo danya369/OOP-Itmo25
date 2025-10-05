@@ -1,0 +1,37 @@
+# Build results
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# VS Code
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# MacOS system files
+.DS_Store
+
+# Rider/JetBrains
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# Dotnet cache
+**/project.lock.json
+**/project.fragment.lock.json
+*.nuget.props
+*.nuget.targets
+
+# Others
+*.db
+*.cache
+*.bak
+*.tmp
