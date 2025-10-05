@@ -32,7 +32,7 @@ public class Product
 ```csharp
 public class VendingMachine
 ```
-Основной класс логики автомата.
+Это наш основной класс логики автомата
 
 #### Поля:
 
